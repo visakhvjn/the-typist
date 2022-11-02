@@ -1,5 +1,19 @@
-.App {
+body {
+  background-color: #323437;
+}
+
+.content {
   text-align: center;
+  margin: auto;
+  padding: 5% 10% 10% 10%;
+  font-size: 200%;
+  letter-spacing: 4px;
+  z-index: -999;
+  font-weight: 400;
+}
+
+.header {
+  padding-left: 10%;
 }
 
 .App-logo {
@@ -35,4 +49,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.cursor {
+  z-index: 1000;
+  position: absolute;
+  color: #E2B714;
+}
+
+.inputBox {
+  opacity: 0;
+}
+
+.letter {
+  color: #5C5D5D;
+}
+
+.correctLetter {
+  color: white;
+}
+
+.label {
+  color: #E2B714;
+}
+
+.subLabel {
+  color: #5C5D5D;
+  font-size: 150%;
+  margin-top: -1%;
 }
